@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Hero Landing Page- Task- 22</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header class="sticky">
+        <div>
+            <nav class="flex justify-between px-20 py-3">
+                <div class="logo-left text-xl font-bold py-3">
+                    <h1><i class="fa-solid fa-diamond"></i> Project</h1>
+                </div>
+                <div class="links-right flex justify-around items-center px-8">
+                    <ul class="flex">
+                        <li><a href="#" class="p-2 m-1 hover:border-b-2">Product</a></li>
+                        <li><a href="#" class="p-2 m-1 hover:border-b-2">Solutions</a></li>
+                        <li><a href="#" class="p-2 m-1 hover:border-b-2">Resources</a></li>
+                        <li><a href="#" class="p-2 m-1 hover:border-b-2">Pricing</a></li>
+                        <li><a href="#" class="p-2 m-1 hover:border-b-2 font-bold">Log in</a></li>
+                    </ul>
+                    <button class="bg-black text-white p-2 ml-2">Get AI Free</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+        <div class="h-140 gradient bg-gradient-to-t to-orange-50 from-white">
+            <div class="flex flex-col items-center justify-center p-2">
+                <h1 class="text-4xl m-1 font-bold">Write, play, share.</h1>
+                <h1 class="text-4xl m-1 font-bold">With AI at your side.</h1>
+                <p class="m-3">It is the connected workspace where better, faster work happens, now with AI.</p>
+                <div class="btn flex items-center m-3 ">
+                    <button class="text-white p-3 m-1 bg-black">Get AI free <i class="fa-solid fa-arrow-right-long text-white"></i> </button>
+                    <button class="text-white p-3 m-1 bg-blue-600">Request a demo</button>
+                </div>
+            </div>
+
+            <div class="relative justify-items-center m-4">
+                <img src="./image/dashboard-img.jpg" alt="" class="h-80 absolute">
+                <div class="task-card w-48 h-15 bg-white absolute top-24 left-60 z-40 shadow shadow-black p-1">
+                    <h3 class="font-medium">📝 Tasks</h3>
+                    <p>12 tasks completed today</p>
+                </div>
+                <div class="task-card w-48 h-15 bg-white absolute top-20 right-48 z-40 shadow shadow-black p-1 pl-2">
+                    <h3 class="font-medium"><i class="fa-solid fa-check text-green-800 bg-green-400 p-1"></i> Project Status</h3>
+                    <p class="text-green-500 font-medium">On Track</p>
+                </div>
+                <div class="task-card w-48 h-15 bg-white absolute top-50 right-64 z-40 shadow shadow-black p-1 pl-2">
+                    <h3 class="font-medium">Team Activity</h3>
+                    <p class="flex items-center">
+                        <img src="./image/cust-1.jpg" alt="" class="h-5 w-4">
+                        <img src="./image/cust-2.jpg" alt="" class="h-5 w-4">
+                        <img src="./image/cust-3.jpg" alt="" class="h-5 w-4">
+                          &nbsp; + 5 online</p>
+                </div>
+                <div class="task-card size-8 bg-black fixed bottom-6 right-6 z-50  p-1">
+                    💬
+                </div>
+            </div>
+        </div>
+        
+ 
+    </main>
+</body>
+</html>
+
